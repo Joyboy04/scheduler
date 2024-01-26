@@ -1,0 +1,42 @@
+/* Custom CSS for the navigation bar */
+.navbar-default {
+    background-color: #3498db;
+}
+.navbar-brand {
+    font-size: 25px; /* Adjust the font size as needed */
+    color: white;
+    margin-left: 15px; /* Change this color to your desired navbar brand text color */
+}
+
+.navbar-right {
+    margin-right: 15px; /* Adjust the margin as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: white;
+}
+
+/* Styles for the user dropdown */
+.user-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.user-dropdown a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #2c3e50; /* Change this color to your desired text color */
+}
+
+.user-dropdown a:hover {
+    background-color: #f1f1f1;
+    color: #34495e; /* Change this color to your desired hover text color */
+}
+
+.navbar-btn {
+    margin-right: 15px; /* Adjust the margin as needed */
+    
+}
